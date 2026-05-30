@@ -1,0 +1,37 @@
+# Maven build files
+target/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# VS Code files
+.vscode/
+
+# Maven installation folder
+apache-maven-3.9.6/
+
+# Temporary files
+*.log
+*.tmp
+
+# Windows files
+desktop.ini
+Thumbs.db
+
+# Shortcut files
+*.lnk
+
+# Text outputs
+cp.txt
+db_output.txt
+
+# ZIP files
+*.zip
+
+# OS generated files
+.DS_Store
+
+# Scratch workspace
+scratch/

@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+}
+
+/* WRAPPER */
+.checkout-wrapper {
+    width: 90%;
+    margin: 30px auto;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+/* MAIN LAYOUT */
+.checkout-container {
+    display: flex;
+    gap: 30px;
+}
+
+/* LEFT */
+.left-box {
+    flex: 2;
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.left-box label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.left-box input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #334155;
+    color: white;
+}
+
+/* ROW */
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.row div {
+    flex: 1;
+}
+
+/* PAYMENT */
+.payment-box label {
+    display: block;
+    margin: 12px 0;
+}
+
+/* RIGHT */
+.right-box {
+    flex: 1;
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* ITEMS */
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #444;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.meta {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.price {
+    color: #22d3ee;
+}
+
+/* TOTAL */
+.total-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.place-btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(135deg, #22d3ee, #6366f1);
+    color: white;
+    cursor: pointer;
+}
+
+/* LINK */
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #aaa;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .checkout-container {
+        flex-direction: column;
+    }
+}
+
+/* CENTER BUTTON */
+.place-order-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.place-btn {
+    width: 300px;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(135deg, #22d3ee, #6366f1);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.place-btn:hover {
+    transform: scale(1.05);
+}
